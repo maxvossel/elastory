@@ -1,4 +1,19 @@
-# elastory
+
+<table align="center"><tr><td align="center" width="9999">
+<img src="net.png" width=400px>
+
+# Elastory 
+
+A python tool for studying long ranged (allosteric) effects in elastic materials (proteins) on a mechanical basis.
+
+
+</td></tr></table>
+
+
+## Installation
+
+
+
 
 
 
