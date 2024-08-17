@@ -7,7 +7,7 @@
 <h1 align="center">elastory</h1>
 
 <p align="center">
-  tools for studying long ranged <i><b>— allosteric — </b></i> effects in elastic materials or proteins on a mechanical basis
+  tools for studying long ranged <i><b>—allosteric—</b></i> effects in elastic materials or proteins on a mechanical basis
   <br>
   <a href="https://arxiv.org/pdf/2311.12025"><strong>Read our paper »</strong></a>
   <br>
