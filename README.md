@@ -32,7 +32,7 @@ You might wan't to have a look at the [examples](./notebooks/examples).
 
 ## Publication
 
-Please have a look at our [paper](https://arxiv.org/pdf/2311.12025) and cite us when using my code.
+Please have a look at our [paper 📜](https://arxiv.org/pdf/2311.12025) and cite us [<img alt="orcid" width="20px" src="https://orcid.org/assets/vectors/orcid.logo.icon.svg">](https://orcid.org/0009-0007-0723-8109) when using my code.
 
 ```bibtex
 @misc{vossel2023allosteric,
