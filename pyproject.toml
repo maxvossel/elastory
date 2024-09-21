@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "elastory"
+version = "0.1.0"
+description = "Tools for studying long ranged —allosteric— effects in elastic networks (of proteins) on a mechanical basis."
+authors = ["Maximilian Vossel <mvossel@pm.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.3"
+networkx = "^3.2.1"
+parmap = "^1.7.0"
+scipy = "^1.11.4"
+numba = "^0.58.1"
+ruff = "^0.2.1"
+tqdm = "^4.66.2"
+ipykernel = "^6.29.2"
+matplotlib = "^3.8.3"
+ipywidgets = "^8.1.2"
+widgetsnbextension = "^4.0.10"
+jupyterthemes = "^0.20.0"
+pandas = "^2.2.2"
+h5py = "^3.11.0"
+plotly = "^5.23.0"
+rmsd = "^1.5.1"
+pre-commit = "^3.8.0"
+zarr = "^2.18.2"
+pydantic = "^2.8.2"
+kaleido = "0.2.1"
+pillow = "^10.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

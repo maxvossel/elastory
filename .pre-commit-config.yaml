@@ -1,0 +1,49 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-added-large-files
+        args: ["--maxkb=1024"]
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.1.0
+    hooks:
+      - id: prettier
+        types_or: [yaml, json, ts]
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.7
+    hooks:
+      - id: ruff
+        name: ruff (lint)
+        args:
+          - --respect-gitignore
+          # NOTE: Whilst ruff CAN fix most of its lints, we will for now just let problems error out.
+          # That might be a bit annoying, but we probably will learn a lot about python. :)
+          # - --fix
+          # - --unfixable=F401 # https://docs.astral.sh/ruff/rules/unused-import/
+          - --ignore=I # happens later down the line
+          - --config=ruff.toml
+      - id: ruff
+        name: ruff (sort imports)
+        args:
+          - --respect-gitignore
+          - --fix
+          - --select=I
+          - --config=ruff.toml
+      - id: ruff-format
+        name: ruff (format files)
+        types_or: [python, pyi, jupyter]
+        args:
+          - --respect-gitignore
+          - --config=ruff.toml
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.6.1
+    hooks:
+      - id: nbstripout

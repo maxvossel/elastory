@@ -1,0 +1,13 @@
+# For configuration fields, see here: https://docs.astral.sh/ruff/
+
+# If you need to extend this for a specific service,
+# add a [tool.ruff] section to your pyproject.toml:
+# > [tool.ruff]
+# > extend = "../../ruff.toml"
+# > my_totally_relevant_config_for_this_service = 42
+
+line-length = 99
+indent-width = 4
+
+[lint.isort]
+known-first-party = ["elastory"]
