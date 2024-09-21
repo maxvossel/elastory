@@ -51,4 +51,4 @@ Pull requests are more than welcome. For major changes, please open an [issue](h
 
 ## Project status
 
-Work on this project has slowed down since I left academia for an [AI startup](https://lector.ai). I still like this project however and would be happy to help anyone using it. I can not promise anything but will do my best to provide support. :)
+Work on this project has slowed down since I left academia for an [AI startup](https://lector.ai). I still like this project however and would be happy to help anyone using the code. I can not promise anything but will do my best to provide support. :)
