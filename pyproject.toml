@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "elastory"
 version = "0.1.0"
-description = "Tools for studying long ranged —allosteric— effects in elastic networks (of proteins) on a mechanical basis."
+description = "Tools for studying long ranged —allosteric— effects in elastic networks (e.g. of proteins) on a mechanical basis."
 authors = ["Maximilian Vossel <mvossel@pm.me>"]
 license = "MIT"
 readme = "README.md"
