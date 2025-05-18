@@ -160,3 +160,6 @@ cython_debug/
 #.idea/
 
 .ruff*
+.DS_Store
+notebooks/examples/networks/flechsig/*
+notebooks/examples/pdb/*
