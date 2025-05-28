@@ -1,3 +1,19 @@
+<div align="center">
+  <a href="https://doi.org/10.5281/zenodo.15535301">
+    <img src="https://img.shields.io/badge/Data-10.5281%2Fzenodo.15535301-blue" alt="Data DOI">
+  </a>
+  <a href="https://doi.org/10.5281/zenodo.15533305">
+    <img src="https://img.shields.io/badge/Code-10.5281%2Fzenodo.15533305-darkgreen" alt="Code DOI">
+  </a>
+  <a href="https://doi.org/10.1103/wv2k-676p">
+    <img src="https://img.shields.io/badge/Paper-10.1103%2Fwv2k--676p-orange" alt="Paper DOI">
+  </a>
+</div>
+
+  <br>
+  <br>
+
+
 <p align="center">
   <a href="https://arxiv.org/pdf/2311.12025">
     <img src="./net.png" alt="network" width="400">
